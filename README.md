@@ -1,2 +1,4 @@
-# Sesion7_BEDU
-Configuración de Bases de Datos locales.
+# Sesión 7_ BEDU: Configuración de Bases de Datos locales.
+### MySQL.
+Para la configuración de la base de datos de MogoDB es necesario descargar MySQL Server 
+### MongoDB. 
