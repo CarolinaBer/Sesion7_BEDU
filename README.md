@@ -24,3 +24,5 @@ En el caso de movies hay que primero buscar las "," en el titulo de la película
 2. Usando como base el archivo `ratings.dat`, limpiarlo e importar los datos en la tabla `ratings` creada en el Reto 2.
 
 Para este caso fue más sencillo puesto que únicamente se remplazó "::" por "," para delimitar los campos. 
+
+## :pushpin: Reto 3. Importando datos a MongoDB.
