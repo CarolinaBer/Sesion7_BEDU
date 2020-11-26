@@ -6,11 +6,21 @@ A diferencia de MySQL, para la insersión de registros en MongoDB no es necesari
 
 En ambos casos, tanto en MongoDB como en MYSQL el formato en el cual se importan las BD es en **.csv** verificando previamente que la estructura sea la correcta. De tal forma que previamente ya establecimos el formato separado por "," para delimitar los campos.  
 
-## :pushpin: 
+## :pushpin: Reto 1. Realizando operaciones con tablas.
 1. Definir los campos y tipos de datos para la tabla `movies` haciendo uso de los archivos `movies.dat` y `README`.
 
 2. Crear la tabla `movies` (recuerda usar el mismo nombre del archivo sin la extensión para vincular nombres de tablas con archivos).
 
 3. Definir los campos y tipos de datos para la tabla `ratings` haciendo uso de los archivos `ratings.dat` y `README`.
 
-4. Crear la tabla `ratings` (recuerda usar el mismo nombre del archivo sin la extensión para vincular nombres de tablas con archivos)
+4. Crear la tabla `ratings` (recuerda usar el mismo nombre del archivo sin la extensión para vincular nombres de tablas con archivos).
+
+## :pushpin: Reto 2. Importando datos a una tabla en formato CSV.
+
+1. Usando como base el archivo `movies.dat`, limpiarlo e importar los datos en la tabla `movies` creada en el Reto 1.
+
+En el caso de movies hay que primero buscar las "," en el titulo de la película y remplazarlo con un editor de texto por "-", adicionalmente también modifique "|" por "-" y finalmente "::" por "," para delimitar los campos.
+
+2. Usando como base el archivo `ratings.dat`, limpiarlo e importar los datos en la tabla `ratings` creada en el Reto 2.
+
+Para este caso fue más sencillo puesto que únicamente se remplazó "::" por "," para delimitar los campos. 
